@@ -1,19 +1,22 @@
 public class Day3 {
     public static void main(String[] args) {
         
-        // Fungsi \n
+        // Fungsi \n untuk membuat baris baru
         System.out.println("Prodi PTI\nFakultas Keguruan dan Ilmu Pendidikan\nUniversitas Sulawesi Barat");
 
-        // Fungsi \t
+        // Fungsi \t untuk membuat tab otomatis
         System.out.println("Nama\t: Ummi Rufaidah Hamka");
 
-        // Fungsi \b
-        System.out.println("smart\bhome");
+        // Fungsi \''untuk menampilkan tanda petik tunggal
+        System.out.println("\'smart home\'");
 
-        //Fungsi \r
-        System.out.println("Saya tidak suka matcha\rkamu?");
+        //Fungsi \" untuk menampilkan tanda petik ganda
+        System.out.println("\"smart home\"");
 
-        //Fungsi double backslash(\\)
+        //Fungsi \r untuk membuat kursor kembali ke awal baris
+        System.out.println("Saya tidak suka matcha\rkamu");
+
+        //Fungsi double backslash(\\) untuk menampilkan tanda backslash
         System.out.println("mau makan\\mau minum?");
         
     }
