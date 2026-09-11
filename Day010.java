@@ -33,7 +33,12 @@ public class Day10 {
         // minimal dan maksimal tipe data  char
         System.out.println("\nChar");
         System.out.println("minimal:"+  (int) Character.MIN_VALUE);
-         System.out.println("maksimal:"+  (int) Character.MAX_VALUE);
+        System.out.println("maksimal:"+  (int) Character.MAX_VALUE);
+
+        // min max tipe data boolean
+        System.out.println("\nBoolean");
+        System.out.println("Minimal Maximal:" + true + (" dan ")+ false);
     }
     
 }
+
